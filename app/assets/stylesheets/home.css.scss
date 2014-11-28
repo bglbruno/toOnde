@@ -1,0 +1,72 @@
+@import "bootstrap/variables";
+$primary-color-text: #2C3E50;
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+    font-family: sans-serif;
+    font-size: 17px;
+    color: $primary-color-text;
+    text-align: center;
+}
+
+header{
+    padding: 1%;
+    font-size: 2em;
+}
+
+.controls{
+    margin: 0 auto;
+    display: block;
+
+    padding: 5% 0;
+    width: 50%;
+
+    @media (min-width: $screen-sm-min){
+        padding: 3% 0;
+        width: 50%;
+    }
+    @media (min-width: $screen-md-min){
+        padding: 2% 0;
+        width: 20%;
+    }
+}
+
+.local-info{
+    .local{
+        font-weight: 700;
+        padding: 5%;
+        font-size: 2em;
+
+        background-color: #2C3E50;
+        color: #fff;
+    }
+    .mapa{
+        padding-top: 10%;
+        #map-canvas {
+            margin-top: 20%;
+            height: 400px;
+            @media (min-width: $screen-sm-min){
+                height: 300px;
+            }
+            width: 100%;
+            margin: 0px;
+            padding: 0px
+        }
+    }
+
+}
+footer{
+    padding: 7% 0;
+    color: #888;
+    section{
+        padding: 3%;
+        @media (min-width: $screen-sm-min){
+            padding: 1%;
+        }
+    }
+}
