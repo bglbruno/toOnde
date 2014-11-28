@@ -48,7 +48,6 @@ header{
     .mapa{
         padding-top: 10%;
         #map-canvas {
-            margin-top: 20%;
             height: 400px;
             @media (min-width: $screen-sm-min){
                 height: 300px;
