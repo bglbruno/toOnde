@@ -57,3 +57,5 @@ group :development, :test do
 end
 
 gem 'bootstrap-sass', '~> 3.3.1'
+
+gem 'newrelic_rpm'
