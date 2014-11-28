@@ -46,7 +46,6 @@ header{
         color: #fff;
     }
     .mapa{
-        padding-top: 10%;
         #map-canvas {
             height: 400px;
             @media (min-width: $screen-sm-min){
@@ -60,7 +59,7 @@ header{
 
 }
 footer{
-    padding: 7% 0;
+    padding-top: 5%;
     color: #888;
     section{
         padding: 3%;
