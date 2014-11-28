@@ -25,7 +25,7 @@ function showMap(position){
     lng = position.coords.longitude;
 
     $.ajax({
-        url: "http://maps.googleapis.com/maps/api/geocode/json",
+        url: "https://maps.googleapis.com/maps/api/geocode/json",
         contentType: "text/plain",
         dataType: "json",
         data: {latlng: lat +","+ lng, sensor: true}
