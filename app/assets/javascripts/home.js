@@ -28,7 +28,7 @@ function showMap(position){
         url: "http://maps.googleapis.com/maps/api/geocode/json",
         contentType: "text/plain",
         dataType: "json",
-        data: {latlng: lat +","+ lng, sensor: false}
+        data: {latlng: lat +","+ lng, sensor: true}
     }).done(function(response){
 
         $("#local span").html(response.results[0].formatted_address);
